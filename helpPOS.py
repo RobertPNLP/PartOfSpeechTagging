@@ -1,8 +1,8 @@
 import nltk
 
-def POS_info(POS_setList):
-    info = nltk.help.upenn_tagset(POS_setList)
+def POS_info(POS):
+    info = nltk.help.upenn_tagset(POS)
     try:
-        print(POS_setList + ' ' + info)
+        print(POS + ' ' + info)
     except:
         pass
